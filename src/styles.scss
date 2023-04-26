@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  font-size: 'Roboto', Arial, Helvetica, sans-serif;
+
+  button {
+    background: none;
+  }
+}
+
+:root {
+  --primary: #1976D2;
+  --body: #fff;
+  --text-menu: #fff;
+  --text-body: #000
+}
+
+:root .dark-theme {
+--primary: #0D47A1;
+--body: #00ff2f;
+--text-menu: #ffffff;
+--text-body: #fff
+}
+
+body {
+  background-color: var(--body);
+}
+.container {
+  width: 510px;
+  margin: 0 auto;
+
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+
+  margin: 50px 0 10px;
+}
+
+p {
+  font-size: 16px ;
+  font-weight: 400;
+}
+
+h1,p {
+  color: var(--text-body);
+}
+
+}

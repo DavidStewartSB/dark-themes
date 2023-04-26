@@ -1,0 +1,18 @@
+<header>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg"
+  alt="Logo da empresa"
+  width="50"
+  height="50">
+
+  <ul>
+    <li>
+      <a [routerLink]="['']">Home</a>
+    </li>
+    <li>
+      <a [routerLink]="['sobre']">Sobre</a
+        ></li>
+    <li>
+      <button (click)="toggle()"><i class="fa-solid fa-{{icon}}"></i></button>
+    </li>
+  </ul>
+</header>

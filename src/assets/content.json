@@ -1,0 +1,12 @@
+{
+  "pages": {
+    "home": {
+      "title": "Home",
+      "name": "Company name"
+    },
+    "about": {
+      "title": "Sobre",
+      "author": "Dener Troquatte"
+    }
+  }
+}
